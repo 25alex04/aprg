@@ -1,0 +1,15 @@
+{
+  "name": "tutorium-online",
+  "version": "4.2.0",
+  "description": "test",
+  "main": "A1_HA1.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
