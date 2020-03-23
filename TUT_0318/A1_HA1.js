@@ -11,4 +11,8 @@ app.get('/hello', function(req, res){
     res.send('Hello World!');
 })
 
+app.get('/about42', function(req, res) {
+    res.sendFile(__dirname + "/public/about.html");
+});
+
 app.use(express.static(__dirname + '/public'));
